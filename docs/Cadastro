@@ -1,4 +1,4 @@
-http://www.conede.sc.gov.br/index.php?option=com_jforms&view=form&id=3&Itemid=31
+﻿http://www.conede.sc.gov.br/index.php?option=com_jforms&view=form&id=3&Itemid=31
 http://www.conede.sc.gov.br/index.php?option=com_content&view=article&id=11&Itemid=10
 
 Cadastro Tela 1: 
@@ -9,8 +9,8 @@ Cadastro Tela 1:
 Cadastro Tela 2: 
 - Nome completo *Texto
 - Data de nascimento *DatePicker
-- Telefone de contato *Texto
-- Sexo(#Masculino #Feminino) *Opcoes para marcar obrigatoriamente uma
-- Tenho algum tipo de deficiencia?(#Sim #Nao) *Opcoes para marcar obrigatoriamente uma
-(#Sim)- Tipo de deficiencia(#Fisica #Auditiva #Visual #Mental) *Opcoes para marcar quantas quiser
-(#Sim)- Detalhes da deficiencia
+- Telefone para contato *Texto
+- Sexo(#Masculino #Feminino) *Opções para marcar obrigatoriamente uma
+- Tenho algum tipo de deficiência?(#Sim #Não) *Opções para marcar obrigatoriamente uma
+(#Sim)- Tipo de deficiência(#Física #Auditiva #Visual #Mental) *Opções para marcar quantas quiser
+(#Sim)- Detalhes da deficiência
