@@ -1,0 +1,12 @@
+http://www.conede.sc.gov.br/index.php?option=com_jforms&view=form&id=3&Itemid=31
+http://www.conede.sc.gov.br/index.php?option=com_content&view=article&id=11&Itemid=10
+
+Cadastro: 
+- Nome completo *Texto
+- Data de nascimento *DatePicker
+- E-mail *Texto
+- Telefone de contato *Texto
+- Sexo(#Masculino #Feminino) *Opcoes para marcar obrigatoriamente uma
+- Tenho algum tipo de deficiencia?(#Sim #Nao) *Opcoes para marcar obrigatoriamente uma
+(#Sim)- Tipo de deficiencia(#Fisica #Auditiva #Visual #Mental) *Opcoes para marcar quantas quiser
+(#Sim)- Detalhes da deficiencia
