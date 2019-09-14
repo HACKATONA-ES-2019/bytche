@@ -1,10 +1,14 @@
 http://www.conede.sc.gov.br/index.php?option=com_jforms&view=form&id=3&Itemid=31
 http://www.conede.sc.gov.br/index.php?option=com_content&view=article&id=11&Itemid=10
 
-Cadastro: 
+Cadastro Tela 1: 
+- E-mail *Texto
+- Senha *Texto
+- Confirmar senha *Texto
+
+Cadastro Tela 2: 
 - Nome completo *Texto
 - Data de nascimento *DatePicker
-- E-mail *Texto
 - Telefone de contato *Texto
 - Sexo(#Masculino #Feminino) *Opcoes para marcar obrigatoriamente uma
 - Tenho algum tipo de deficiencia?(#Sim #Nao) *Opcoes para marcar obrigatoriamente uma
