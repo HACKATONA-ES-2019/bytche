@@ -1,0 +1,8 @@
+.mapContainer {
+    top: 100px;
+    left: 0;
+    align-self: center!important;
+    justify-content: center!important;
+    max-width: "100%"!important;
+    max-height: 30em!important;
+}
