@@ -6,11 +6,13 @@ import Incendio from "./screens/emergencia/Incendio/Incendio";
 import Inundacao from "./screens/emergencia/Inundacao/Inundacao";
 import Contatos from './screens/contatos/Contatos';
 import Maps from './screens/maps/Maps'
+import InundacaoA from './screens/Alarmes/InundacaoA';
+import IncendioA from './screens/Alarmes/IncendioA';
 
 class App extends Component {
   constructor(props){
     super(props);
-    this.state = { page: 0 }
+    this.state = { page: 0, warnInundacao: false, warnIncendio: false }
   }
 
   handlePage = page => {
@@ -18,16 +20,18 @@ class App extends Component {
   };
 
   render() {
-    const { page } = this.state;
+    const { page, warnInundacao, warnIncendio } = this.state;
     return (
       <div className="App">
-        { page === 3 && <Maps />}
+        { page === 3 && !warnIncendio && !warnInundacao && <Maps />}
+        { warnInundacao && <InundacaoA />}
+        { warnIncendio && <IncendioA />}
         <header className="App-header">
           {/* adicionar infos */}
           <div>
-        { page === 0 && <Contatos />}
-        { page === 1 && <Incendio />}
-        { page === 2 && <Inundacao />}
+        { page === 0 && !warnInundacao && !warnIncendio && <Contatos />}
+        { page === 1 && !warnInundacao && !warnIncendio && <Incendio />}
+        { page === 2 && !warnInundacao && !warnIncendio && <Inundacao />}
         </div>
         </header>
         <BottomNavigation
