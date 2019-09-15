@@ -1,0 +1,14 @@
+.InundacaoA{
+    background-color: rgb(255, 255, 0);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 900px;
+}
+
+.alarm{
+    font-size: 70px;
+    font-weight: bold;
+}

@@ -4,12 +4,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import AccountCircle from '@material-ui/icons/AccountCircle';
 import Face from '@material-ui/icons/Face';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
-import { Whatshot, Waves } from '@material-ui/icons';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -47,29 +44,10 @@ export default function MenuAppBar() {
       <AppBar position="positionStatic">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            NOME AQUI
+            SAFETY APP
           </Typography>
           {auth && (
             <div>
-              <IconButton
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                // onClick={handleMenu}
-                color="inherit"
-              >
-                <Whatshot color="secondary" />
-              </IconButton>
-              <IconButton
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                color="error"
-                // onClick={handleMenu}
-                color="inherit"
-              >
-                <Waves color="secondary" />
-              </IconButton>
               <IconButton
                 aria-label="warn1"
                 aria-controls="menu-appbar"
