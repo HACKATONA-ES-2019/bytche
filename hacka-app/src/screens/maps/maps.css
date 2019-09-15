@@ -1,8 +1,12 @@
 .mapContainer {
-    top: 100px;
     left: 0;
     align-self: center!important;
     justify-content: center!important;
+    max-height: "100%"!important;
     max-width: "100%"!important;
-    max-height: 30em!important;
+}
+
+.searchBox {
+    margin: 0 auto;
+    left: 0;
 }
