@@ -28,6 +28,13 @@ const Incendio = () => {
           <li>Se o local estiver coberto por fumaça, abaixe-se e saia rastejando do local</li>
           <li>Tenha atenção as pessoas ao seu lado, se alguem estiver ficando nervoso ou descontrolado, tente acalma-lo, ele pode representar um grande perigo</li>
         </ol>
+        <li className="mainTopic">Caso não consiga sair do local</li>
+        <ol>
+          <li>Caso não seja possivel sair do local com segurança, procure uma sala com janela, molhe-a se possivel para dificultar o alastramento das chamas</li>
+          <li>Na sala, feche a porta sem trancar e tente cobrir as frestas com cobertores, tapetes, ou qualquer tecido para que a fumaça não entre</li>
+          <li>Para sua posição ser identificada jogue papeis ou acene da janela</li>
+          <li>Não salte do prédio</li>
+        </ol>
       </ul>
     </div>
   );
