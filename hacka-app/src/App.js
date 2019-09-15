@@ -4,6 +4,7 @@ import { Phone, Waves, Fireplace, MyLocation } from '@material-ui/icons';
 import './App.css';
 import Incendio from "./screens/emergencia/Incendio/Incendio";
 import Inundacao from "./screens/emergencia/Inundacao/Inundacao";
+import Contatos from './screens/contatos/Contatos';
 
 class App extends Component {
   constructor(props){
@@ -22,7 +23,7 @@ class App extends Component {
         <header className="App-header">
           {/* adicionar infos */}
           <div>
-        { page === 0 && <Incendio />}
+        { page === 0 && <Contatos />}
         { page === 1 && <Incendio />}
         { page === 2 && <Inundacao />}
         { page === 3 && <Incendio />}
