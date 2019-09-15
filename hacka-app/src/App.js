@@ -21,14 +21,13 @@ class App extends Component {
     const { page } = this.state;
     return (
       <div className="App">
+        { page === 3 && <Maps />}
         <header className="App-header">
           {/* adicionar infos */}
           <div>
         { page === 0 && <Contatos />}
         { page === 1 && <Incendio />}
         { page === 2 && <Inundacao />}
-        { page === 3 && <Maps />}
-
         </div>
         </header>
         <BottomNavigation
