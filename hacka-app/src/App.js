@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import { Phone, Waves, Fireplace, MyLocation } from '@material-ui/icons';
 import './App.css';
-import Incendio from "./screens/emergencia/Incendio";
+import Incendio from "./screens/emergencia/Incendio/Incendio";
 
 class App extends Component {
   constructor(props){
@@ -21,10 +21,10 @@ class App extends Component {
         <header className="App-header">
           {/* adicionar infos */}
           <div>
-        { page == 0 && <Incendio />}
-        { page == 1 && <Incendio />}
-        { page == 2 && <Incendio />}
-        { page == 3 && <Incendio />}
+        { page === 0 && <Incendio />}
+        { page === 1 && <Incendio />}
+        { page === 2 && <Incendio />}
+        { page === 3 && <Incendio />}
 
         </div>
         </header>
@@ -36,9 +36,9 @@ class App extends Component {
             showLabels
             className={{ width: "100%" }}
           >
+            <BottomNavigationAction label="Contatos" icon={<Phone />} />
             <BottomNavigationAction label="Caso de incêndio" icon={<Fireplace />} />
             <BottomNavigationAction label="Inundação" icon={<Waves />} />
-            <BottomNavigationAction label="Contatos" icon={<Phone />} />
             <BottomNavigationAction label="Adicionar Locais" icon={<MyLocation />} />
           </BottomNavigation>
       </div>
