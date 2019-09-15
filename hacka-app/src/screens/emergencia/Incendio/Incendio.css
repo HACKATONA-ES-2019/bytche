@@ -4,8 +4,8 @@
 }
 
 .title{
-    font-size: 70px;
     font-weight: bold;
+    padding-bottom: 0.5em;
 }
 
 .lista{
@@ -13,18 +13,22 @@
 }
 
 .mainTopic{
-    font-size: 50px;
     font-weight: bold;
     list-style-image: url('fire.svg');
-
 }
 
 hr{
-    border: 1px solid white;
+    border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
 }
 
 li{
     margin: 10px;
+}
+
+.card{
+    background-color: "red";
+    margin: 2em;
+    margin-bottom: 4em;
 }
