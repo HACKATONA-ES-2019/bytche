@@ -34,7 +34,7 @@ class App extends Component {
               this.handlePage(page);
             }}
             showLabels
-            className={{ width: "100%" }}
+            className="menu"
           >
             <BottomNavigationAction label="Contatos" icon={<Phone />} />
             <BottomNavigationAction label="Caso de incêndio" icon={<Fireplace />} />
