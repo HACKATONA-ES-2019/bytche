@@ -1,0 +1,29 @@
+.Inundacao-flood{
+    height: 50%;
+    width: 50%;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.lista{
+    text-align: left;
+}
+
+.topic{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+hr{
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    margin: 10px;
+
+}
