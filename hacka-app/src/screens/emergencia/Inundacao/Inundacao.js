@@ -8,9 +8,9 @@ const Inundacao = () => {
     <div className="Main">
         <img src={flood} className="Inundacao-flood" alt="flood" style={{ width: "100px", height: "100px" }}/>
         <p className="title">O que fazer em caso de inundação?</p>
-        <Card className="card level1">
+        <Card className="card">
         <ul className="lista">
-            <li className="topic">Durante a inundação</li>
+            <li className="mainTopic">Durante a inundação</li>
             <ol>
                 <li>Evite deslocamento para regiões problemáticas</li>
                 <li>Se for seguro, permaneça em casa</li>
@@ -22,9 +22,9 @@ const Inundacao = () => {
             </ol>
           </ul>
           </Card>
-          <Card className="card level2">
+          <Card className="card">
             <ul className="lista">
-              <li className="topic">Após a inundação</li>
+              <li className="mainTopic">Após a inundação</li>
               <ol>
                   <li>Antes de retornar para sua casa, verifique as condições de segurança estrutural e elétrica</li>
                   <li>Após a inundação, higienize toda casas e objetos que tiveram contato com a água</li>
