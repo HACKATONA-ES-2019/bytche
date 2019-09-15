@@ -5,12 +5,15 @@ import './App.css';
 import Incendio from "./screens/emergencia/Incendio/Incendio";
 import Inundacao from "./screens/emergencia/Inundacao/Inundacao";
 import Contatos from './screens/contatos/Contatos';
-import Maps from './screens/maps/Maps'
+import Maps from "./screens/maps/Maps";
+import Login from "./screens/login/Login";
+import Capa from "./screens/login/Capa";
+import Cadastro from "./screens/login/Cadastro";
 
 class App extends Component {
   constructor(props){
     super(props);
-    this.state = { page: 0 }
+    this.state = { page: undefined }
   }
 
   handlePage = page => {
@@ -24,12 +27,13 @@ class App extends Component {
         <header className="App-header">
           {/* adicionar infos */}
           <div>
-        { page === 0 && <Contatos />}
-        { page === 1 && <Incendio />}
-        { page === 2 && <Inundacao />}
-        { page === 3 && <Maps />}
+            { page === undefined && <Capa /> }
+            { page === 0 && <Contatos />}
+            { page === 1 && <Incendio />}
+            { page === 2 && <Inundacao />}
+            { page === 3 && <Maps />}
 
-        </div>
+          </div>
         </header>
         <BottomNavigation
             value={page}
