@@ -5,6 +5,7 @@ import './App.css';
 import Incendio from "./screens/emergencia/Incendio/Incendio";
 import Inundacao from "./screens/emergencia/Inundacao/Inundacao";
 import Contatos from './screens/contatos/Contatos';
+import Maps from './screens/maps/Maps'
 
 class App extends Component {
   constructor(props){
@@ -26,7 +27,7 @@ class App extends Component {
         { page === 0 && <Contatos />}
         { page === 1 && <Incendio />}
         { page === 2 && <Inundacao />}
-        { page === 3 && <Incendio />}
+        { page === 3 && <Maps />}
 
         </div>
         </header>
