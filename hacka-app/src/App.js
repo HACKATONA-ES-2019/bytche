@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import { Phone, Waves, Fireplace, MyLocation } from '@material-ui/icons';
 import './App.css';
