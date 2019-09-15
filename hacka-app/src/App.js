@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Incendio from "./screens/emergencia/Incendio";
+import Incendio from "./screens/emergencia/Incendio/Incendio";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
