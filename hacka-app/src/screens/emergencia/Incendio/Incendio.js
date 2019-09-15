@@ -8,10 +8,10 @@ const Incendio = () => {
   return (
     <div className="Main">
       <div style={{ color: "red" }}>
-        <Icon icon={fire} size={70} />
+        <Icon icon={fire} size={100} />
       </div>
       <p className="title">O que fazer em caso de incêndio?</p>
-      <Card className="card level1">
+      <Card className="card">
         <ul className="lista">
           <li className="mainTopic">Inicio do incêndio</li>
           <ol>
