@@ -9,6 +9,7 @@
 }
 
 .App-header {
+  padding: 0;
   background-color: white;
   min-height: 100vh;
   display: flex;

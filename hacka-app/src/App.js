@@ -5,7 +5,8 @@ import './App.css';
 import Incendio from "./screens/emergencia/Incendio/Incendio";
 import Inundacao from "./screens/emergencia/Inundacao/Inundacao";
 import Contatos from './screens/contatos/Contatos';
-import Maps from './screens/maps/Maps'
+import Maps from './screens/maps/Maps';
+import MenuAppBar from "./components/AppBar";
 
 class App extends Component {
   constructor(props){
@@ -21,14 +22,14 @@ class App extends Component {
     const { page } = this.state;
     return (
       <div className="App">
+        <MenuAppBar />
         { page === 3 && <Maps />}
         <header className="App-header">
-          {/* adicionar infos */}
           <div>
-        { page === 0 && <Contatos />}
-        { page === 1 && <Incendio />}
-        { page === 2 && <Inundacao />}
-        </div>
+            { page === 0 && <Contatos />}
+            { page === 1 && <Incendio />}
+            { page === 2 && <Inundacao />}
+          </div>
         </header>
         <BottomNavigation
             value={page}
