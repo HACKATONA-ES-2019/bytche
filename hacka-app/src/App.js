@@ -3,6 +3,7 @@ import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import { Phone, Waves, Fireplace, MyLocation } from '@material-ui/icons';
 import './App.css';
 import Incendio from "./screens/emergencia/Incendio/Incendio";
+import Inundacao from "./screens/emergencia/Inundacao/Inundacao";
 
 class App extends Component {
   constructor(props){
@@ -23,7 +24,7 @@ class App extends Component {
           <div>
         { page === 0 && <Incendio />}
         { page === 1 && <Incendio />}
-        { page === 2 && <Incendio />}
+        { page === 2 && <Inundacao />}
         { page === 3 && <Incendio />}
 
         </div>
@@ -34,7 +35,7 @@ class App extends Component {
               this.handlePage(page);
             }}
             showLabels
-            className={{ width: "100%" }}
+            className="menu"
           >
             <BottomNavigationAction label="Contatos" icon={<Phone />} />
             <BottomNavigationAction label="Caso de incêndio" icon={<Fireplace />} />
