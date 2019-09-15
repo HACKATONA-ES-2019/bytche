@@ -10,7 +10,7 @@ const Incendio = () => {
       <div style={{ color: "red" }}>
         <Icon icon={fire} size={70} />
       </div>
-      <h3 className="title">O que fazer em caso de incêndio?</h3>
+      <p className="title">O que fazer em caso de incêndio?</p>
       <Card className="card level1">
         <ul className="lista">
           <li className="mainTopic">Inicio do incêndio</li>
